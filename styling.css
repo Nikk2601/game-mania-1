@@ -1,0 +1,95 @@
+body{
+    background-image: url(draf.jpg ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ .desc{
+     display:block;
+     background-image: url(back.jpg ) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height:1200px ;
+ }
+.game{
+    height:260px;
+    width:100%;
+    display: flex;
+}
+
+
+.all{
+    padding-top: 14px;
+}
+.second{
+    padding-top: 44px;
+
+}
+.about{
+    margin:12px 23px;
+    padding:34px 23px;
+    font-size: 24px;
+    color: rgb(7, 10, 12);
+    
+    font-family: 'Oxygen', sans-serif;
+}
+#snake{
+    text-align: left;
+    flex-direction: row-reverse;
+ }
+ h1{
+     font-size: 56px;
+     text-align: center;
+     font-family: 'Oxygen', sans-serif;
+     font-style: italic;
+     color: rgb(26, 4, 26);
+ }
+ .first{
+     text-align: left;
+   
+     padding-left: 232px;
+ }
+.img{
+    height: 416px;
+    width: 503px;
+    display: flex;
+    margin: -82px 23px;
+    padding: 15px 47px
+}
+.btn{
+    padding: 8px 28px;
+     margin: 23px 600px;
+     border-radius: 8px;
+     border: 2px solid white;
+     color: rgb(17, 2, 2);
+     text-align: center;
+     background: none;
+     cursor: pointer;  
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 19px;
+     text-decoration: none;
+}
+.btn:hover{
+    background-color: palevioletred;
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; 
+    color: rgb(17, 2, 2);}
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+.secbtn{
+    margin: 23px 650px;
+   
+}
+.firstbtn{
+    margin: 23px 360px;
+}
